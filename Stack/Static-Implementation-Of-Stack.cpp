@@ -62,8 +62,22 @@ struct Stack
 		{
 			cout << stack[i] << " ";
 		}
+		cout << endl;
 	}
 };
+
+
+Stack reverseStack(Stack s1)
+{
+	Stack s2;
+
+	for (int i = 0; i <= s1.top; i++)
+	{
+		s2.push(s1.stack[i]);
+	}
+
+	return s2;
+}
 
 int main()
 {
@@ -78,6 +92,11 @@ int main()
 	s1.pop();
 
 	s1.display();
+
+	Stack s2 = reverseStack(s1);
+
+	s2.display();
+
 
 	return 0;
 }
