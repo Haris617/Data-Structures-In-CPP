@@ -9,7 +9,7 @@ This repository is perfect for:
 
 ---
 
-# 🚀 How to Contribute (No Git Needed)
+# 🚀 How to Contribute
 
 Wanna contribute but don’t know Git? No worries — here’s how to do it **using only GitHub** 👇  
 
